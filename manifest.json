@@ -3,7 +3,7 @@
     "dumper" : {
         "schedule" : "0 * * * *", 
         "data_url" : ["https://storage.googleapis.com/andersen-lab_temp/outbreak_genomics/shapefiles.json.gz"],
-        "uncompress" : false,
+        "uncompress" : false
     },
     "uploader" : { 
         "parser" : "parser:load_annotations",
