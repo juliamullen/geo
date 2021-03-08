@@ -9,6 +9,18 @@ def get_customized_mapping(cls):
 	"NAME_2": {
 	    "type": "keyword"
 	},
+	"admin_level": {
+	    "type": "integer"
+	},
+	"GID_0": {
+	    "type": "keyword"
+	},
+	"HASC_1": {
+	    "type": "keyword"
+	},
+	"HASC_2": {
+	    "type": "keyword"
+	},
 	"id": {
 	    "type": "integer"
 	},
